@@ -1,0 +1,139 @@
+/*
+
+Required Style Rules:
+
+1. Font properties:
+   - font-size
+   - font-style
+   - font-weight
+
+2. Text properties:
+   - color
+   - text-align
+
+3. Box model properties:
+   - margin
+   - margin-top
+   - margin-bottom
+   - padding
+   - padding-bottom
+   - padding-left
+
+4. Positioning properties:
+   - position
+   - top
+   - right
+
+5. Background properties:
+   - background-color
+
+6. Border properties:
+   - border
+   - border-bottom
+   - border-left
+   - border-radius
+
+7. List properties:
+   - list-style-type
+
+8. Pseudo-classes:
+   - :nth-child(odd)
+   - :nth-child(even)
+
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333333;
+    max-width: 800px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+section {
+   background-color: white;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+   padding: 20px;
+   margin: 20px auto;
+   justify-content: space-between;
+   align-items: center;
+}
+h2{
+   border-bottom: cornflowerblue 2px solid;
+   padding-bottom: 20px;
+   font-size: 2em;
+}
+.specificity-list{
+   list-style: none;
+   padding: 0;
+
+}
+.specificity-list li{
+   border-left: 6px solid cornflowerblue;
+   background-color:whitesmoke;
+   margin-top: 10px;
+   padding: 10px;
+   font-size: large;
+}
+.specificity-list span{
+   padding-left: 10px;
+   font-weight: bold;
+   color:red;
+   
+}
+#intro{
+   font-style: italic;
+   font-size: 107%;
+   line-height: 2;
+   padding-bottom: 10px;
+}
+#example {
+    font-family: monospace;
+    white-space: pre-wrap;
+      background-color: #f9f9f9;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 6px;
+      background-color:lightcyan;
+      border: 2px solid  lightskyblue;
+      padding: 20px;
+      padding-bottom: 30px;
+}
+footer{
+   padding-top: 2px;
+   padding-bottom: 20px;
+   text-align: center;
+}
+.emoji {
+   font-size: 2em;
+   display: flex;
+   justify-content: right;
+   margin: 20px 0;
+   padding-left: 10px;
+   position: relative;
+   top: 75px;
+   margin-top: -85px;
+}
+h1{
+   font-size: 3em;
+   font-weight: bold;
+   color: white;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-left: 20px;
+   text-align: left;
+   color: white;
+   background-color: #333333;
+   border-radius: 20px;
+   margin-top: 10px;
+}
+#scroll-button {
+   font-size: 2em;
+   text-decoration: none;
+   border-radius: 50%;
+   cursor: pointer;
+   z-index: 1000;
+   position:fixed;
+   bottom: -5px;
+   right: 5px;
+}
